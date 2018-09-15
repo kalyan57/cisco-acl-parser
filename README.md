@@ -9,7 +9,7 @@ Script is very narrow-specific and designed only for certain task - prepare read
 * each IP address gets resolved into domain name: if there is no domain name - rule is outdated and won't be transfered in new configuration, it would be dropped
 * having hostname script then looks for user name in reference file
 * finally we select from collected rules of initial ACl only this user PC (hostname) rules by IP and rewrite them into a usernamed ACL
-* actopns from 3 to 5 are iterated for each IP address 
+* actions from 3 to 5 are iterated for each IP address 
 
 ## [USAGE]
 script takes two input files: 
