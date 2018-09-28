@@ -11,6 +11,13 @@ Script is very narrow-specific and designed only for certain task - prepare read
 * finally we select from collected rules of initial ACl only this user PC (hostname) rules by IP and rewrite them into a usernamed ACL
 * actions from 3 to 5 are iterated for each IP address 
 
+## [Rguirements:]
+
+Note: install dependencies:
+```
+pip install pandas xlrd xlwt argparse
+```
+
 ## [USAGE]
 script takes two input files: 
 * acl.txt
